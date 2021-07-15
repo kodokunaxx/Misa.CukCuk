@@ -1,0 +1,49 @@
+.content{
+    width: 100%;
+    height: calc(100vh - 69px);
+    background-color: #ffffff;
+    margin-top: 12px;
+}
+
+.content .content-header{
+    height: 40px;
+    display: flex;
+    padding: 10px 16px;
+    line-height: 40px;
+}
+
+.content .content-header .content-title{
+    margin: 0;
+    font-size: 15px;
+    font-family: 'MISAGoogleSans-Bold';
+}
+
+.content .content-header .button{
+    right: 16px;
+    position: absolute;
+    display: flex;   
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.content .content-header .button-icon{
+    align-self: center;
+    height: 24px;
+    width: 24px;
+    background: url('/content/icon/add.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.content .content-filter{
+    height: 40px;
+    display: flex;
+    line-height: 40px;
+    padding: 10px 0;
+}
+
+.content-body{
+    display: flex;
+    padding: 10px 16px;
+}

@@ -1,0 +1,46 @@
+.header{
+    height: 49px;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.header .container{
+    display: flex;
+    line-height: 48px;
+}
+
+.header .header-left{
+    padding: 0px 16px;
+}
+
+.header .header-left .misa-dropdown{
+    border: none;
+}
+
+.header .header-right{
+    right: 16px;
+    display: flex;
+    position: absolute;
+}
+
+.header .header-right .avt-logo{
+    align-self: center;
+    height: 24px;
+    width: 24px;
+    background: url('/content/icon/avatar-default.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+}
+
+.header .header-right .option-icon{
+    margin-left: 16px;
+    align-self: center;
+    height: 24px;
+    width: 24px;
+    background: url('/content/icon/option.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
