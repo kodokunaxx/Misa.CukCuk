@@ -1,19 +1,22 @@
-.misa-tbl{
+/* core table */
+.tbl{
     width: 100%;
     border-collapse: collapse;
+    font-size: 13px;
 }
-    .misa-tbl>thead{
-        text-align: left;
-    }
-        .misa-tbl tr{
-            height: 48px;
-        }
-            th, td{
-                border-bottom: 1px solid #bbbbbb;
-            }
 
+.tbl th, td{
+    border-bottom: 1px solid #e5e5e5;
+    height: 48px;
+    padding: 0 10px;
+    text-align: left;
+}
 
-        .misa-tbl>tbody>tr:nth-child(odd) { 
-            background-color: #e5e5e5; 
-        }
-            
+.tbl th>i{
+    padding: 0 8px;
+}
+
+.tbl-striped tbody tr:nth-child(odd){
+    background-color: #e5e5e5;
+}
+/* end core table */

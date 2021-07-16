@@ -1,14 +1,35 @@
-.misa-dropdown{
+.dropdown{
+    display: flex;
+    align-items: center;
     border: 1px solid #bbbbbb;
-    border-radius: 4px;
     height: 40px;
-    font-size: 13px;
-    outline: none;
-    width: 180px;
-    font-family: 'MISAGoogleSans';
-    margin-left: 16px;
+    border-radius: 4px;
+    padding: 0px 12px 0px 16px;
+    cursor: pointer;
 }
 
-.misa-dropdown:focus{
-    border: 1px solid #01b075;
+.dropdown:focus{
+    border-color: #019160;
+}
+
+.dropdown:hover{
+    border-color: #019160;
+}
+
+
+.dropdown .btn-dropdown{
+    margin-left: auto;
+}
+
+.dropdown .dropdown-text{
+    margin-right: 12px;
+}
+
+.dropdown.non-border{
+    border: none;
+    font-family: MISAGoogleSans-Bold;
+}
+
+.dropdown.dropdown-with-width{
+    width: 200px;
 }

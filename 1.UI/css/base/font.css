@@ -1,0 +1,50 @@
+.font-heading{
+    font-size: 24px;
+    font-family: MISAGoogleSans-Bold;
+}
+
+.font-title{
+    font-size: 20px;
+    font-family: MISAGoogleSans-Bold;
+}
+
+.font-title2{
+    font-size: 15px;
+    font-family: MISAGoogleSans-Bold;
+}
+
+.font-input{
+    font-size: 13px;
+    font-family: MISAGoogleSans-Medium;
+}
+
+.font-label{
+    font-size: 13px;
+    font-family: MISAGoogleSans;
+}
+
+.font-content-details{
+    font-size: 13px;
+    font-family: MISAGoogleSans-Medium;
+}
+
+.font-body-content{
+    font-size: 13px;
+    font-family: MISAGoogleSans;
+}
+
+.font-hint{
+    font-size: 11px;
+    font-family: MISAGoogleSans;
+}
+
+.txt-align-right{
+    text-align: right !important;
+}
+
+.txt-align-left{
+    text-align: left !important;
+}
+.txt-align-center{
+    text-align: center !important;
+}

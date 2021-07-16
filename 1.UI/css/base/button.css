@@ -9,12 +9,40 @@
     line-height: 40px;
     box-sizing: unset;
     display: inline-block;
+    min-width: 75px;
+    cursor: pointer;
+    border: none;
 }
 
 .button:hover{
-    background-color: #2FBE8E;
+    background-color: #2fbe8e;
 }
 
 .button:active{
     background-color: #01B075;
+}
+
+button.button{
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    outline: none;
+    border: none;
+}
+
+.button .button-icon{
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    flex-shrink: 0;
+}
+
+.button .button-icon-employee{
+    background-image: url('../../content/icon/add.png');
 }

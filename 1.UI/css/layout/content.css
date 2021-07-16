@@ -1,49 +1,84 @@
 .content{
+    /* position: absolute; */
+    padding-top: 16px;
     width: 100%;
-    height: calc(100vh - 69px);
     background-color: #ffffff;
-    margin-top: 12px;
 }
 
 .content .content-header{
-    height: 40px;
+    padding: 0px 16px;
     display: flex;
-    padding: 10px 16px;
-    line-height: 40px;
-}
-
-.content .content-header .content-title{
-    margin: 0;
-    font-size: 15px;
-    font-family: 'MISAGoogleSans-Bold';
+    align-items: center;
+    height: 40px;
 }
 
 .content .content-header .button{
     right: 16px;
     position: absolute;
-    display: flex;   
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-.content .content-header .button-icon{
-    align-self: center;
-    height: 24px;
-    width: 24px;
-    background: url('/content/icon/add.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 8px;
+    display: flex;
 }
 
 .content .content-filter{
-    height: 40px;
+    margin-top: 10px;
     display: flex;
-    line-height: 40px;
-    padding: 10px 0;
+    height: 40px;
+    align-items: center;
 }
 
-.content-body{
-    display: flex;
-    padding: 10px 16px;
+.content .content-filter .department{
+    margin: 0px 16px;
 }
+
+.content .content-body{
+    padding-top: 16px;
+}
+
+.content-body .container{
+    padding: 0px 16px;
+    height: calc(100vh - 250px);
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.reload{
+    margin-right: 16px;
+    align-self: center;
+    margin-left: auto;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    display: flex;
+}
+.reload:hover{
+    border: 1px solid #01b075;
+}
+
+.reload>.reload-icon{
+    background: url('/content/icon/refresh.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+.content-footer>.paging{
+    padding: 0px 16px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+}
+.paging>.pagintation-text{
+    align-self: center;
+}
+.paging>.pagination{
+    align-self: center;
+}
+.paging>.pagination-total{
+    align-self: center;
+}
+    

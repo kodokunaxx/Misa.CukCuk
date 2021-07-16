@@ -1,0 +1,39 @@
+.textbox{
+    align-items: center;
+    display: flex;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-right: 16px;
+    margin-left: 16px;
+}
+
+.textbox-default{
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.textbox:hover{
+    border-color: #019160;
+}
+
+.textbox-with-icon{
+    display: flex;
+    flex-shrink: 0;
+}
+
+.textbox .textbox-icon{
+    margin-left: 16px;
+    flex-shrink: 0;
+    margin-right: 8px;
+    z-index: 1;
+    display: block;
+}
+
+.textbox input{
+    z-index: 0;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+}
