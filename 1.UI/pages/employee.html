@@ -59,264 +59,266 @@
         </div>
     </div>
     <div class="content">
-        <div class="content-header">
-            <div class="content-title font-title">Danh sách nhân viên</div>
-            <button class="button">
-                <div class="button-icon button-icon-employee"></div>
-                <div class="btn-text">Thêm nhân viên</div>
-            </button>
-        </div>
-        <div class="content-filter">
-            <div class="textbox">
-                <div class="textbox-icon icon-16 icon-search"></div>
-                <input type="text" class="textbox-default textbox-with-icon"
-                    placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại">
+        <div class="container">
+            <div class="content-header">
+                <div class="content-title font-title">Danh sách nhân viên</div>
+                <button class="button">
+                    <div class="button-icon button-icon-employee"></div>
+                    <div class="btn-text">Thêm nhân viên</div>
+                </button>
             </div>
-            <div class="department">
-                <div class="dropdown dropdown-with-width">
-                    <div class="dropdown-text">Tất cả phòng ban</div>
-                    <div class="btn-dropdown"><i class="fas fa-solid fa-chevron-down"></i></div>
+            <div class="content-filter">
+                <div class="textbox">
+                    <div class="textbox-icon icon-16 icon-search"></div>
+                    <input type="text" class="textbox-default textbox-with-icon"
+                        placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại">
                 </div>
-            </div>
-            <div class="position">
-                <div class="dropdown dropdown-with-width">
-                    <div class="dropdown-text">Tất cả vị trí</div>
-                    <div class="btn-dropdown"><i class="fas fa-solid fa-chevron-down"></i></div>
-                </div>
-            </div>
-            <div class="reload">
-                <div class="reload-icon"></div>
-            </div>
-        </div>
-        <div class="content-body">
-            <div class="container">
-                <table class="tbl tbl-striped" id="misa-datatable">
-                    <thead>
-                        <tr>
-                            <th class="txt-align-right">#</th>
-                            <th>Mã nhân viên <i class="fa fa-sort"></i></th>
-                            <th>Họ và tên <i class="fa fa-sort"></i></th>
-                            <th>Giới tính <i class="fa fa-sort"></i></th>
-                            <th>Ngày sinh <i class="fa fa-sort"></i></th>
-                            <th>Điện thoại <i class="fa fa-sort"></i></th>
-                            <th>Email <i class="fa fa-sort"></i></th>
-                            <th>Chức vụ <i class="fa fa-sort"></i></th>
-                            <th>Phòng ban <i class="fa fa-sort"></i></th>
-                            <th class="txt-align-right">Mức lương cơ bản <i class="fa fa-sort"></i></th>
-                            <th>Trạng thái công việc <i class="fa fa-sort"></i></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>haproadg@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="content-footer">
-            <div class="paging">
-                <div class="pagintation-text">
-                    <p>Hiển thị 1-10/1000 nhân viên</p>
-                </div>
-                <div class="pagination">
-                    <div class="back-to-start"></div>
-                    <div class="pre-page"></div>
-                    <div class="number-page">
-                        <div class="number">
-                            <div class="number-text">1</div>
-                        </div>
-                        <div class="number">
-                            <div class="number-text">2</div>
-                        </div>
-                        <div class="number">
-                            <div class="number-text">3</div>
-                        </div>
+                <div class="department">
+                    <div class="dropdown dropdown-with-width">
+                        <div class="dropdown-text">Tất cả phòng ban</div>
+                        <div class="btn-dropdown"><i class="fas fa-solid fa-chevron-down"></i></div>
                     </div>
-                    <div class="next-page"></div>
-                    <div class="go-to-end"></div>
                 </div>
-                <div class="pagination-total">
-                    <p>10 nhân viên/trang</p>
+                <div class="position">
+                    <div class="dropdown dropdown-with-width">
+                        <div class="dropdown-text">Tất cả vị trí</div>
+                        <div class="btn-dropdown"><i class="fas fa-solid fa-chevron-down"></i></div>
+                    </div>
+                </div>
+                <div class="reload">
+                    <div class="reload-icon"></div>
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="container">
+                    <table class="tbl tbl-striped" id="misa-datatable">
+                        <thead>
+                            <tr>
+                                <th class="txt-align-right">#</th>
+                                <th>Mã nhân viên <i class="fa fa-sort"></i></th>
+                                <th>Họ và tên <i class="fa fa-sort"></i></th>
+                                <th>Giới tính <i class="fa fa-sort"></i></th>
+                                <th>Ngày sinh <i class="fa fa-sort"></i></th>
+                                <th>Điện thoại <i class="fa fa-sort"></i></th>
+                                <th>Email <i class="fa fa-sort"></i></th>
+                                <th>Chức vụ <i class="fa fa-sort"></i></th>
+                                <th>Phòng ban <i class="fa fa-sort"></i></th>
+                                <th class="txt-align-right">Mức lương cơ bản <i class="fa fa-sort"></i></th>
+                                <th>Trạng thái công việc <i class="fa fa-sort"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                            <tr>
+                                <td class="txt-align-right">1</td>
+                                <td>NV-532408</td>
+                                <td>Hồ Văn Long</td>
+                                <td></td>
+                                <td>11/08/1978</td>
+                                <td>0940458449</td>
+                                <td>haproadg@gmail.com</td>
+                                <td>Giám đốc</td>
+                                <td>Phòng nhân sự</td>
+                                <td class="txt-align-right">17.739.291</td>
+                                <td>Đang thử việc</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="content-footer">
+                <div class="paging">
+                    <div class="pagintation-text">
+                        <p>Hiển thị 1-10/1000 nhân viên</p>
+                    </div>
+                    <div class="pagination">
+                        <div class="back-to-start"></div>
+                        <div class="pre-page"></div>
+                        <div class="number-page">
+                            <div class="number">
+                                <div class="number-text">1</div>
+                            </div>
+                            <div class="number">
+                                <div class="number-text">2</div>
+                            </div>
+                            <div class="number">
+                                <div class="number-text">3</div>
+                            </div>
+                        </div>
+                        <div class="next-page"></div>
+                        <div class="go-to-end"></div>
+                    </div>
+                    <div class="pagination-total">
+                        <p>10 nhân viên/trang</p>
+                    </div>
                 </div>
             </div>
         </div>
