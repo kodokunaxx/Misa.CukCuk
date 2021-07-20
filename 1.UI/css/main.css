@@ -5,6 +5,7 @@
 @import url('../css/base/icon.css');
 @import url('../css/base/table.css');
 @import url('../css/base/pagination.css');
+@import url('../css/base/modal.css');
 body{
     font-family: MISAGoogleSans;
     font-size: 13px;

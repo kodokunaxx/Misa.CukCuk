@@ -1,3 +1,6 @@
+.drop-content{
+    position: relative;
+}
 .dropdown{
     display: flex;
     align-items: center;
@@ -32,4 +35,53 @@
 
 .dropdown.dropdown-with-width{
     width: 200px;
+}
+
+.drop-data-site{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 1px 2px 1px 2px #BBBBBB;
+    z-index: 1;
+    background-color: #ffffff;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px 0;
+}
+.drop-item{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+}
+.drop-item:hover{
+    background: #E9EBEE;
+}
+.checked-icon{
+    width: 16px;
+    align-self: center;
+    margin-left: 10px;
+    text-align: center;
+}
+.checked-icon>i{
+    font-size: 16px;
+    margin: auto 0;
+}
+.item-text{
+    font-size: 13px;
+    margin: 0px 12px 0px 16px;
+}
+
+
+
+.drop-item.selected{
+    background-color: #01b075;
+    border-radius: 4px;
+}
+.drop-item.selected>.item-text{
+    color: #ffffff;
+}
+.drop-item.selected>.checked-icon{
+    color: #ffffff;
 }

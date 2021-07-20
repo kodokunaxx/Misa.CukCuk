@@ -5,13 +5,13 @@
     box-sizing: border-box;
     border-radius: 4px;
     padding-right: 16px;
-    margin-left: 16px;
 }
 
 .textbox-default{
     height: 40px;
     outline: none;
     border: none;
+    margin-left: 16px;
 }
 
 .textbox:hover{
@@ -32,8 +32,21 @@
 }
 
 .textbox input{
+    padding: 0;
     z-index: 0;
     width: 300px;
     height: 40px;
-    line-height: 40px;
+    font-family: MISAGoogleSans;
 }
+
+.label{
+    margin: 0;
+    padding: 0px 0px 4px 0px;
+    font-size: 13px;
+}
+
+.text-price{
+    text-align: right;
+    margin-right: 4px;
+}
+

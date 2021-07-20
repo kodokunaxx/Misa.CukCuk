@@ -46,3 +46,22 @@ button.button{
 .button .button-icon-employee{
     background-image: url('../../content/icon/add.png');
 }
+
+.button-default{
+    background-color: #e5e5e5;
+    border: none;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    box-sizing: unset;
+    display: inline-block;
+    min-width: 75px;
+}
+
+.button-default:hover{
+    background-color: #BBBBBB;
+}

@@ -33,6 +33,11 @@
     font-family: MISAGoogleSans;
 }
 
+.font-italic{
+    font-size: 13px;
+    font-family: MISAGoogleSans-Italic;
+}
+
 .font-hint{
     font-size: 11px;
     font-family: MISAGoogleSans;
