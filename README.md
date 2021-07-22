@@ -7,4 +7,4 @@
 *Review 22/07* 
 - Hoàn thành hiển thị dữ liệu từ api ra bảng, dropdown
 - thực hiện thêm, sửa cơ bản, định dạng ngày, tiền
-- chưa thực hiện validate, xóa, phân trang
+- chưa thực hiện validate, xóa, phân trang, comment code
