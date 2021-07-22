@@ -44,9 +44,16 @@
     width: 40px;
     background-color: #ffffff;
     display: flex;
+    cursor: pointer;
 }
+
 .reload:hover{
     border: 1px solid #01b075;
+}
+
+.reload:active{
+    background-color: #E5E5E5;
+    border: 1px solid #bbbbbb;
 }
 
 .reload .reload-icon{

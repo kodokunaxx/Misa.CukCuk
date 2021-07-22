@@ -5,6 +5,7 @@
     box-sizing: border-box;
     border-radius: 4px;
     padding-right: 16px;
+    background-color: #ffffff;
 }
 
 .textbox-default{
@@ -50,3 +51,6 @@
     margin-right: 4px;
 }
 
+.textbox.text-validate{
+    border: 1px solid red;
+}

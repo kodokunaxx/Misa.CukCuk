@@ -24,3 +24,7 @@
 .tbl-striped tbody tr:nth-child(odd){
     background-color: #f4f4f4;
 }
+
+.tbl tr{
+    cursor: pointer;
+}
