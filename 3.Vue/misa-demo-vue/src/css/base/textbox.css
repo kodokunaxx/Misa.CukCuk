@@ -1,0 +1,56 @@
+.textbox{
+    align-items: center;
+    display: flex;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-right: 16px;
+    background-color: #ffffff;
+}
+
+.textbox-default{
+    height: 40px;
+    outline: none;
+    border: none;
+    margin-left: 16px;
+}
+
+.textbox:hover{
+    border-color: #019160;
+}
+
+.textbox-with-icon{
+    display: flex;
+    flex-shrink: 0;
+}
+
+.textbox .textbox-icon{
+    margin-left: 16px;
+    flex-shrink: 0;
+    margin-right: 8px;
+    z-index: 1;
+    display: block;
+}
+
+.textbox input{
+    padding: 0;
+    z-index: 0;
+    width: 300px;
+    height: 40px;
+    font-family: MISAGoogleSans;
+}
+
+.label{
+    margin: 0;
+    padding: 0px 0px 4px 0px;
+    font-size: 13px;
+}
+
+.text-price{
+    text-align: right;
+    margin-right: 4px;
+}
+
+.textbox.text-validate{
+    border: 1px solid red;
+}

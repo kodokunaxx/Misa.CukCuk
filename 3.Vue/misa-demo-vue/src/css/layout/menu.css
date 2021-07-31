@@ -1,0 +1,81 @@
+.menu{
+    width: 225px;
+    border-right: 1px solid #E5E5E5;
+    float: left;
+}
+
+.menu .menu-logo-site{
+    height: 48px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+}
+
+.menu .menu-logo-site .toggle{
+    width: 24px;
+    height: 24px;
+    margin: 12px 10px 12px 16px;
+    background-image: url('../../assets/img/toggle.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu .menu-logo-site .logo{
+    height: 24px;
+    width: 150px;
+    background-image: url('../../assets/img/cukcuk-logo.png');
+    background-size: contain;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+
+.menu .menu-content{
+    width: 225px;
+    height: calc(100vh - 49px);
+}
+
+.menu .menu-content .menu-item{
+    display: flex;
+    align-items: center;
+    height: 44px;
+    color: #000000;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.menu .menu-content .menu-item:hover{
+    background-color: #E5E5E5;
+}
+
+.menu .menu-content .menu-item.menu-item-active{
+    background-color: #019160;
+    color: #ffffff;
+    font-family: MISAGoogleSans-Medium;
+}
+
+.menu .menu-content .menu-item .item-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.item-icon.item-icon-dashboard{
+    background-image: url('../../assets/icon/dashboard.png');
+}
+
+.item-icon.item-icon-report{
+    background-image: url('../../assets/icon/report.png');
+}
+
+.item-icon.item-icon-employee{
+    background-image: url('../../assets/icon/dic-employee.png');
+}
+
+.item-icon.item-icon-setting{
+    background-image: url('../../assets/icon/setting.png');
+}

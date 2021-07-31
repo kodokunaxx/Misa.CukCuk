@@ -23,7 +23,7 @@
                 <div class="item-icon item-icon-dashboard"></div>
                 <div class="item-text">Tổng quan</div>
             </div>
-            <div class="menu-item menu-item-active">
+            <div class="menu-item">
                 <div class="item-icon item-icon-report"></div>
                 <div class="item-text">Báo cáo</div>
             </div>
@@ -31,7 +31,7 @@
                 <div class="item-icon item-icon-dashboard"></div>
                 <div class="item-text">Mua hàng</div>
             </div>
-            <div class="menu-item">
+            <div class="menu-item menu-item-active">
                 <div class="item-icon item-icon-employee"></div>
                 <div class="item-text">Danh mục nhân viên</div>
             </div>
@@ -87,10 +87,10 @@
                     <input type="text" class="textbox-default textbox-with-icon"
                         placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại">
                 </div>
-                <div class="department">
+                <div class="department" id="department">
                     <div class="drop-content">
                         <div class="dropdown dropdown-with-width">
-                            <div class="dropdown-text">Tất cả phòng ban</div>
+                            <div class="dropdown-text"></div>
                             <div class="btn-dropdown"><i class="fas fa-solid fa-chevron-down"></i></div>
                         </div>
                         <div class="drop-data-site">
@@ -98,11 +98,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="position">
+                <div class="position" id="position">
 
                     <div class="drop-content">
                         <div class="dropdown dropdown-with-width">
-                            <div class="dropdown-text">Tất cả vị trí</div>
+                            <div class="dropdown-text"></div>
                             <div class="btn-dropdown"><i class="fas fa-solid fa-chevron-down"></i></div>
                         </div>
                         <div class="drop-data-site">
@@ -375,9 +375,12 @@
     <!-- <script src="../content/font/fontawesome-5.15.1/attribution.js"></script> -->
     <script src="../content/font/fontawesome-5.15.1/js/all.min.js"></script>
     <script src="../js/common/jquery-3.6.0.js"></script>
-    <script src="../js/common/common.js"></script>
+    <!-- <script src="../js/common/common.js"></script>
     <script src="../js/pages/employee.js"></script>
-    <script src="../js/pages/modal.js"></script>
+    <script src="../js/pages/modal.js"></script> -->
+    <script src="../js/pages/OOP/base.js"></script>
+    <script src="../js/pages/OOP/dropdown.js"></script>
+    <script src="../js/pages/OOP/employee.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,33 @@
+@import url('../css/base/dropdown.css');
+@import url('../css/base/font.css');
+@import url('../css/base/button.css');
+@import url('../css/base/textbox.css');
+@import url('../css/base/icon.css');
+@import url('../css/base/table.css');
+@import url('../css/base/pagination.css');
+@import url('../css/base/modal.css');
+body{
+    font-family: MISAGoogleSans;
+    font-size: 13px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: MISAGoogleSans;
+    src: url('../assets/font/GoogleSans-Regular.otf');
+}
+
+@font-face {
+    font-family: MISAGoogleSans-Bold;
+    src: url('../assets/font/GoogleSans-Bold.otf');
+}
+
+@font-face {
+    font-family: MISAGoogleSans-Italic;
+    src: url('../assets/font/GoogleSans-Italic.otf');
+}
+
+@font-face {
+    font-family: MISAGoogleSans-Medium;
+    src: url('../assets/font/GoogleSans-Medium.otf');
+}

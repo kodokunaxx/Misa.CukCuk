@@ -1,0 +1,13 @@
+.icon-16{
+    width: 16px;
+    height: 16px;
+}
+
+.icon-24{
+    width: 24px;
+    height: 24px;
+}
+
+.icon-search{
+    background-image: url('../../assets/icon/search.png');
+}

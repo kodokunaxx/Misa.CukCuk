@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    height: 48px;
+    border-bottom: 1px solid #E5E5E5;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.header .header-left{
+    display: flex;
+}
+
+.header .header-right{
+    right: 16px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-right .avt-logo{
+    width: 24px;
+    height: 24px;
+    background-image: url('../../assets/icon/avatar-default.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header .header-right .username{
+    margin: 0px 16px;
+}
+
+.header .header-right .option-icon{
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/icon/option.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
